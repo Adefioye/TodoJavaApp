@@ -1,8 +1,5 @@
-<html>
-<head>
-<title>My Login Page</title>
-</head>
-<body>
+<%@ include file="common/header.jspf" %>
+<%@ include file="common/navigation.jspf" %>	
 <form method="POST">
 	<pre>${errorMessage}</pre>
  	<label>Name:</label>
@@ -13,6 +10,5 @@
  	<br />
  	<input type="submit" />
  	<br />
- </form>
-</body>
-</html>
+ </form>\
+<%@ include file="common/footer.jspf" %>
