@@ -20,8 +20,6 @@ import jakarta.validation.Valid;
 @SessionAttributes("name")
 public class TodoControllerJpa {
 	
-	@Autowired
-	private TodoService todoService;
 	
 	@Autowired
 	private TodoRepository todoRepository;
